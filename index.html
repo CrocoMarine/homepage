@@ -12,9 +12,7 @@
   <meta name="keywords" content="CROCOMARINE, ROV, MATE, Alexandria University, Technical Team" />
   <meta name="author" content="Hagar Usama - https://www.linkedin.com/in/hagar-usama/ - hagar_usama@outlook.com" />
   <link rel="stylesheet" href="css/tailwind.min.css" />
-  <!--Replace with your tailwind.css once created-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-  <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
   <style>
     .gradient {
       /* background: linear-gradient(90deg, #072555 0%, #0daae9 100%); */
@@ -48,7 +46,7 @@
         id="nav-content">
 
 
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+        <ul class="list-reset lg:flex justify-end flex-1 ">
 
           <li class="mr-3">
             <a class="inline-block py-2 px-4 text-black font-bold no-underline hover:opacity-50" href="#">Home</a>
@@ -69,12 +67,27 @@
           </li>
 
           <li class="mr-3">
-            <a class="inline-block py-2 px-4 text-black font-bold no-underline hover:opacity-50"
-              href="#Contact">Contact Us</a>
+            <a class="inline-block py-2 px-4 text-black font-bold no-underline hover:opacity-50" href="#Contact">Contact
+              Us</a>
           </li>
 
-        
+         
+            <li id="visit" class="inline-block py-2 px text-black font-bold no-underline">
+              
+              <svg   xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </li>
+          <li id="count" class="inline-block py-2 px-2 text-black font-bold no-underline"> </li>
+
+
+        </ul>
         <div id="navAction"></div>
+
         <!-- <button
         id="navAction"
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
@@ -85,6 +98,7 @@
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
   </nav>
+
   <!--Hero-->
   <div class="pt-24">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -103,7 +117,7 @@
             we learn to communicate effectively with each other and we do manage our own responsibilities.
             Being a newly established team, we have encountered challenging hardships which we proudly dealt with. -->
         </p>
-        
+
 
       </div>
       <!--Right Col-->
@@ -152,7 +166,8 @@
           <p class="w-full font-bold text-2xl text-gray-800 px-6">
             CAIMAN-8 - 2021
           </p>
-          <img class="transform hover:scale-125 ml-10 my-10 w-4/5  z-50 rounded-full" src="images/ROVs/caiman-8-cp.jpg" />
+          <img class="transform hover:scale-125 ml-10 my-10 w-4/5  z-50 rounded-full"
+            src="images/ROVs/caiman-8-cp.jpg" />
 
           <ul class="w-full text-center text-xl font-bold">
             <li class="border-b py-4"> </li>
@@ -245,47 +260,6 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
 
-
-
-
-      <!-- // responsive layout -->
-      <!-- <div class="container mx-auto ">
-        <div class="grid-cols-3 p-20 space-y-2 flex-wrap  lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
-
-          <div class="w-full rounded hover:shadow-2xl">
-            <img src="images/Team/team_2021_MATE_1.jpg" alt="image">
-          </div> 
-
- 
-          <div class="w-auto col-span-2 row-span-2 rounded hover:shadow-2xl">
-            <img  class= "object-contain hover:object-scale-down" src="images/Team/team_2021_MATE_2.jpg" alt="image">
-          </div>
-
-          <div class="w-auto rounded hover:shadow-2xl">
-            <img src="images/Team/team_2021.jpg" alt="image">
-          </div>
-          <div class="w-full rounded hover:shadow-2xl">
-            <img src="images/Team/team_2021_college.jpg" alt="image">
-          </div>
-
-          <div class="w-full rounded row-span-2 hover:shadow-2xl">
-            <img src="images/Team/MATE_2019_2.jpg" alt="image">
-          </div>
-
-
-        
-
-        
-
-          <div class="w-full rounded hover:shadow-2xl">
-            <img src="images/Team/team_2019.jpg" alt="image">
-          </div> 
-       
-        </div>
-      </div> -->
-
-
-
       <div class="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3">
         <div class="w-full rounded transform transition-all hover:-translate-x-20 hover:-translate-y-20">
           <img class="transform hover:scale-125" src="images/Team/team_2021_college.jpg" alt="image">
@@ -364,15 +338,13 @@
 
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink hover:opacity-50">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow hover:shadow-2xl">
-          <a  class="flex-wrap no-underline hover:no-underline">
+          <a class="flex-wrap no-underline hover:no-underline">
             <p class="w-full font-bold text-2xl text-gray-800 px-6">
               PCBWAY - 2020
             </p>
-            <!-- <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
-              </div> -->
-
-            <img class=" ml-10  w-4/5  z-50 rounded-full" src="https://www.gadgetronicx.com/wp-content/uploads/2019/10/pcbway-e1570976911924.png" />
+        
+            <img class=" ml-10  w-4/5  z-50 rounded-full"
+              src="https://www.gadgetronicx.com/wp-content/uploads/2019/10/pcbway-e1570976911924.png" />
 
           </a>
 
@@ -381,7 +353,7 @@
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink hover:opacity-50">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow hover:shadow-2xl">
-          <a  class="flex-wrap no-underline hover:no-underline">
+          <a class="flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-2xl text-gray-800 px-6">
               Ezz Steal - 2017
             </div>
@@ -391,24 +363,7 @@
         </div>
       </div>
 
-      <!-- // responsive
-      <div class="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3">
-        <div class="w-full rounded hover:shadow-2xl">
-          <img
-            src="images/https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
-            alt="image">
-        </div>
-        <div class="w-full rounded hover:opacity-50">
-          <img
-            src="images/https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
-            alt="image">
-        </div>
-        <div class="w-full rounded hover:shadow-2xl">
-          <img
-            src="images/https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
-            alt="image">
-        </div>
-      </div> -->
+    
     </div>
   </section>
   <!-- Change the colour #f8fafc to match the previous section colour -->
@@ -439,7 +394,7 @@
   </svg>
 
 
-  <section id="Contact" class="container mx-auto text-center py-6 mb-12">
+  <section id="Contact" class="container mx-auto text-center py-6 mb-12 ">
     <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
       Contact Us
     </h1>
@@ -488,13 +443,18 @@
         <li class="mr-3">
           <a class="inline-block  no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hover:opacity-50"
             href="mailto:crocomarine@alexu.edu.eg">
-            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="12" r="4" />  <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" /></svg>
+            <svg class="h-8 w-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+              fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <circle cx="12" cy="12" r="4" />
+              <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+            </svg>
 
 
           </a>
         </li>
 
-       
+
         <li class="mr-3">
           <a class="inline-block  no-underline hover:text-gray-800 hover:text-underline py-2 px-4 hover:opacity-50"
             href="https://eg.linkedin.com/company/crocomarine">
@@ -509,87 +469,116 @@
         </li>
 
 
-  <script>
-    var scrollpos = window.scrollY;
-    var header = document.getElementById("header");
-    var navcontent = document.getElementById("nav-content");
-    var navaction = document.getElementById("navAction");
-    var brandname = document.getElementById("brandname");
-    var toToggle = document.querySelectorAll(".toggleColour");
+        <script>
+          var scrollpos = window.scrollY;
+          var header = document.getElementById("header");
+          var navcontent = document.getElementById("nav-content");
+          var navaction = document.getElementById("navAction");
+          var brandname = document.getElementById("brandname");
+          var toToggle = document.querySelectorAll(".toggleColour");
 
-    document.addEventListener("scroll", function () {
-      /*Apply classes for slide in bar*/
-      scrollpos = window.scrollY;
+          document.addEventListener("scroll", function () {
+            /*Apply classes for slide in bar*/
+            scrollpos = window.scrollY;
 
-      if (scrollpos > 10) {
-        header.classList.add("bg-white");
-        navaction.classList.remove("bg-white");
-        navaction.classList.add("gradient");
-        navaction.classList.remove("text-gray-800");
-        navaction.classList.add("text-white");
-        //Use to switch toggleColour colours
-        for (var i = 0; i < toToggle.length; i++) {
-          toToggle[i].classList.add("text-gray-800");
-          toToggle[i].classList.remove("text-white");
-        }
-        header.classList.add("shadow");
-        navcontent.classList.remove("bg-gray-100");
-        navcontent.classList.add("bg-white");
-      } else {
-        header.classList.remove("bg-white");
-        navaction.classList.remove("gradient");
-        navaction.classList.add("bg-white");
-        navaction.classList.remove("text-white");
-        navaction.classList.add("text-gray-800");
-        //Use to switch toggleColour colours
-        for (var i = 0; i < toToggle.length; i++) {
-          toToggle[i].classList.add("text-white");
-          toToggle[i].classList.remove("text-gray-800");
-        }
+            if (scrollpos > 10) {
+              header.classList.add("bg-white");
+              navaction.classList.remove("bg-white");
+              navaction.classList.add("gradient");
+              navaction.classList.remove("text-gray-800");
+              navaction.classList.add("text-white");
+              //Use to switch toggleColour colours
+              for (var i = 0; i < toToggle.length; i++) {
+                toToggle[i].classList.add("text-gray-800");
+                toToggle[i].classList.remove("text-white");
+              }
+              header.classList.add("shadow");
+              navcontent.classList.remove("bg-gray-100");
+              navcontent.classList.add("bg-white");
+            } else {
+              header.classList.remove("bg-white");
+              navaction.classList.remove("gradient");
+              navaction.classList.add("bg-white");
+              navaction.classList.remove("text-white");
+              navaction.classList.add("text-gray-800");
+              //Use to switch toggleColour colours
+              for (var i = 0; i < toToggle.length; i++) {
+                toToggle[i].classList.add("text-white");
+                toToggle[i].classList.remove("text-gray-800");
+              }
 
-        header.classList.remove("shadow");
-        navcontent.classList.remove("bg-white");
-        navcontent.classList.add("bg-gray-100");
-      }
-    });
-  </script>
-  <script>
-    /*Toggle dropdown list*/
-    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+              header.classList.remove("shadow");
+              navcontent.classList.remove("bg-white");
+              navcontent.classList.add("bg-gray-100");
+            }
+          });
+        </script>
 
-    var navMenuDiv = document.getElementById("nav-content");
-    var navMenu = document.getElementById("nav-toggle");
+        <!-- counting script -->
+        <script>
+          const countEl = document.getElementById('count');
+          const visit = document.getElementById('visit');
 
-    document.onclick = check;
-    function check(e) {
-      var target = (e && e.target) || (event && event.srcElement);
+          updateVisitCount();
 
-      //Nav Menu
-      if (!checkParent(target, navMenuDiv)) {
-        // click NOT on the menu
-        if (checkParent(target, navMenu)) {
-          // click on the link
-          if (navMenuDiv.classList.contains("hidden")) {
-            navMenuDiv.classList.remove("hidden");
-          } else {
-            navMenuDiv.classList.add("hidden");
+          function updateVisitCount() {
+            const namespace = 'crocomarine';
+            const key = 'hagarUsama';
+
+            fetch(`https://api.countapi.xyz/update/${namespace}/${key}/?amount=1`)
+              .then(res => res.json())
+              .then(res => {
+
+                countEl.innerHTML = res.value;
+                if (res.value > 50) {
+                  countEl.innerHTML = res.value;
+
+                } else {
+                  visit.style.display = "none";
+                  count.style.display = "none";
+                }
+
+              })
           }
-        } else {
-          // click both outside link and outside menu, hide menu
-          navMenuDiv.classList.add("hidden");
-        }
-      }
-    }
-    function checkParent(t, elm) {
-      while (t.parentNode) {
-        if (t == elm) {
-          return true;
-        }
-        t = t.parentNode;
-      }
-      return false;
-    }
-  </script>
+
+        </script>
+        <script>
+          /*Toggle dropdown list*/
+          /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+          var navMenuDiv = document.getElementById("nav-content");
+          var navMenu = document.getElementById("nav-toggle");
+
+          document.onclick = check;
+          function check(e) {
+            var target = (e && e.target) || (event && event.srcElement);
+
+            //Nav Menu
+            if (!checkParent(target, navMenuDiv)) {
+              // click NOT on the menu
+              if (checkParent(target, navMenu)) {
+                // click on the link
+                if (navMenuDiv.classList.contains("hidden")) {
+                  navMenuDiv.classList.remove("hidden");
+                } else {
+                  navMenuDiv.classList.add("hidden");
+                }
+              } else {
+                // click both outside link and outside menu, hide menu
+                navMenuDiv.classList.add("hidden");
+              }
+            }
+          }
+          function checkParent(t, elm) {
+            while (t.parentNode) {
+              if (t == elm) {
+                return true;
+              }
+              t = t.parentNode;
+            }
+            return false;
+          }
+        </script>
 </body>
 
 </html>
